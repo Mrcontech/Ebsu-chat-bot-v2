@@ -9,6 +9,8 @@ A chatbot that answers student questions about Ebonyi State University (EBSU): a
 - **Knowledge base:** 85 answers about EBSU, every one taken from an official EBSU web page (ebsu.edu.ng and its portal subdomains) and linked to it, plus 6 small-talk replies. 414 extra phrasings and 307 language rules.
 - **Measured accuracy:** 29 of 30 held-out test questions handled correctly (96.7%), with no wrong answers. See [`docs/results/evaluation-test.md`](docs/results/evaluation-test.md).
 
+**Try it without installing:** a browser version of the chat (same matching engine and answers, no staff area) is published at https://claude.ai/artifact/2bsK6xvQRYxxE8aoHWPP1e. See [`demo/browser/README.md`](demo/browser/README.md).
+
 ## Run it (one command)
 
 You need, once:
@@ -57,6 +59,7 @@ XAMPP's defaults (user `root`, no password, port 3306) work without any setup. I
 | `npm run benchmark` | Response time of the running app (start it first); writes `docs/results/response-time.md` |
 | `npm run example` | The hand-checkable TF-IDF example from Chapter 3 of the report |
 | `npm run typecheck` | TypeScript check |
+| `npm run build:browser-demo` | Build the one-page browser version (`demo/browser/`) |
 
 ### Setting up the database by hand (backup plan)
 

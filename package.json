@@ -19,7 +19,8 @@
     "evaluate": "tsx scripts/evaluate.ts",
     "typecheck": "tsc --noEmit",
     "example": "tsx scripts/worked-example.ts",
-    "benchmark": "node scripts/benchmark.mjs"
+    "benchmark": "node scripts/benchmark.mjs",
+    "build:browser-demo": "node demo/browser/build.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",

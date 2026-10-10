@@ -58,6 +58,14 @@ Decisions taken while building the EBSU Enquiry Bot, why they were taken, and ho
 | 29 | User feedback is measured with the 10 SUS items plus 4 Technology Acceptance Model items on one printed page. | Standard, quick to score, and the report already explains the scoring. | `docs/student-feedback-form.docx`. |
 | 30 | Ten slides with speaker notes, Calibri, the app's palette; the architecture slide is drawn with shapes so it is readable on a projector. | Calibri ships with every PowerPoint; the dense diagram stays in the report (Figure 3.2). | `docs/defense-slides.pptx`. |
 
+## Browser version
+
+| # | Decision | Why | To change it |
+|---|---|---|---|
+| 31 | A one-page browser version reuses the app's own chat components and matching engine, with the seed knowledge base built in, published as a private claude.ai page. | You wanted to try the chat without installing XAMPP. Reusing the real components keeps it identical to the app. | `demo/browser/`; rebuild with `npm run build:browser-demo`. |
+| 32 | It loads React 18 from cdnjs instead of bundling React 19. | Published pages may load libraries only from approved CDNs, and React 19 has no build there. The chat components use nothing React 19-only. | `demo/browser/build.mjs`. |
+| 33 | Unanswered questions go to the page's shared store, keyed by their sorted word roots, with the latest wording and time but no count. | The store has no safe counters. The chat says "I have saved your question" only after the store confirms the write. | `demo/browser/saved.ts`. |
+
 ## Not done (deliberately out of scope)
 
 - An admin page for the language rules (they are edited in phpMyAdmin; the matcher picks up changes automatically).
