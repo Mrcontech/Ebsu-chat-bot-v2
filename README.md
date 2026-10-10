@@ -13,7 +13,9 @@ A chatbot that answers student questions about Ebonyi State University (EBSU): a
 
 ## Run it (one command)
 
-You need, once:
+**On Windows, the quick way:** double-click **`run-on-windows.bat`** in this folder. It installs Node.js and XAMPP if they are missing (using winget, so it needs internet the first time; click Yes if Windows asks for permission), starts MySQL, then runs `npm start` and opens the browser. Double-click it again whenever you want to run the app.
+
+To do the same by hand, you need, once:
 
 1. **XAMPP** (any recent version) with MySQL. Open the XAMPP Control Panel and click **Start** next to **MySQL**. Apache is not needed.
 2. **Node.js 20.9 or newer** (the LTS version from nodejs.org).
