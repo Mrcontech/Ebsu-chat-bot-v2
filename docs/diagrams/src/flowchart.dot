@@ -1,0 +1,36 @@
+digraph G {
+  graph [rankdir=TB, fontname="Liberation Sans", fontsize=12, bgcolor="white", pad=0.3, nodesep=0.4, ranksep=0.35];
+  node  [fontname="Liberation Sans", fontsize=11, shape=box, style="rounded,filled", fillcolor="#FFFDF9", color="#5C544C", width=2.6];
+  edge  [fontname="Liberation Sans", fontsize=10, color="#5C544C"];
+  start [label="Start: student sends a message", shape=oval, fillcolor="#FCE8DF", color="#C44A1F"];
+  clean [label="Clean text: lower case,\nremove accents and punctuation"];
+  typo  [label="Fix typos: nearest known word\n(edit distance 1, or 2 for long words)"];
+  rules [label="Apply language rules\n(Pidgin, abbreviations, synonyms)"];
+  stop  [label="Remove stopwords and session years"];
+  empty [label="Any meaningful\nwords left?", shape=diamond, fillcolor="#FDF2EC", color="#C44A1F", width=2.2];
+  more  [label="Reply: please add\na few more words"];
+  stem  [label="Reduce words to roots\n(Porter stemmer)"];
+  score [label="For every stored phrasing:\nscore = 0.8 x TF-IDF cosine\n+ 0.2 x trigram similarity\nKeep the best phrasing per answer"];
+  hi    [label="Best score\n>= 0.50 ?", shape=diamond, fillcolor="#FDF2EC", color="#C44A1F", width=2.0];
+  conf  [label="Shares a word the\nstudent typed (not\nonly typo guesses)?", shape=diamond, fillcolor="#FDF2EC", color="#C44A1F", width=2.4];
+  mid   [label="Best score\n>= 0.32 ?", shape=diamond, fillcolor="#FDF2EC", color="#C44A1F", width=2.0];
+  ans   [label="Reply with the stored answer,\nsource link and office"];
+  sug   [label="Reply: Did you mean...?\n(up to 3 closest questions)"];
+  fb    [label="Reply: I don't have that yet,\nwith the office to contact"];
+  logu  [label="Save to unanswered_questions"];
+  log   [label="Save to chat_logs"];
+  end   [label="End", shape=oval, fillcolor="#FCE8DF", color="#C44A1F"];
+  start -> clean -> typo -> rules -> stop -> empty;
+  empty -> more [label="no"];
+  empty -> stem [label="yes"];
+  stem -> score -> hi;
+  hi -> conf [label="yes"];
+  hi -> mid [label="no"];
+  conf -> ans [label="yes"];
+  conf -> sug [label="no"];
+  mid -> sug [label="yes"];
+  mid -> fb [label="no"];
+  sug -> logu; fb -> logu;
+  ans -> log; logu -> log; more -> log;
+  log -> end;
+}

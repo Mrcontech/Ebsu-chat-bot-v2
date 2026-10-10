@@ -1,0 +1,26 @@
+digraph G {
+  graph [rankdir=TB, fontname="Liberation Sans", fontsize=13, bgcolor="white", pad=0.3, nodesep=0.45, ranksep=0.45];
+  node  [fontname="Liberation Sans", fontsize=12, shape=box, style="rounded,filled", fillcolor="#FFFDF9", color="#24201C", margin="0.18,0.08"];
+  edge  [fontname="Liberation Sans", fontsize=10, color="#5C544C"];
+
+  start   [label="Student has a question\n(fees, cut-off mark, transcript, ...)", shape=oval, fillcolor="#FCE8DF", color="#C44A1F"];
+  search  [label="Search the web or open ebsu.edu.ng"];
+  sites   [label="Guess which site has it:\nebsu.edu.ng, portal., iportal., spgs.,\nservices., mail. (older site)"];
+  found   [label="Notice found\nand understood?", shape=diamond, style=filled, fillcolor="#FAF6F0", margin="0.05,0.05"];
+  current [label="Is it for the\ncurrent session?", shape=diamond, style=filled, fillcolor="#FAF6F0", margin="0.05,0.05"];
+  office  [label="Visit or phone the office\n(during office hours only)"];
+  peers   [label="Or ask other students\n(answer may be wrong)"];
+  staff   [label="Staff answer the same\nquestion again"];
+  answer  [label="Student has an answer", shape=oval, fillcolor="#FCE8DF", color="#C44A1F"];
+  norec   [label="No record is kept of what was asked,\nso the gap remains for the next student", shape=note, fillcolor="#FFFFFF", color="#8A8178", fontcolor="#5C544C"];
+
+  start -> search -> sites -> found;
+  found -> current [label=" yes"];
+  found -> office  [label=" no"];
+  current -> answer [label=" yes"];
+  current -> office [label=" not sure"];
+  office -> staff -> answer;
+  office -> peers [style=dashed, arrowhead=none];
+  staff -> norec [style=dotted, arrowhead=none];
+  {rank=same; office; peers}
+}

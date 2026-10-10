@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "registry",
+    "name": "Office of the Registrar",
+    "handles": "General enquiries about the university",
+    "email": "registrar@ebsu.edu.ng, info@ebsu.edu.ng",
+    "phone": "0806 408 7963",
+    "location": "P.M.B. 053, Abakaliki, Ebonyi State (Enugu - Abakaliki Road)",
+    "website": "https://ebsu.edu.ng/contact-us/",
+    "source_url": "https://ebsu.edu.ng/contact-us/"
+  },
+  {
+    "slug": "admissions",
+    "name": "Admission Unit and admissions portal support",
+    "handles": "Admission status, acceptance, documentation and admission portal problems",
+    "email": "ictsupport@ebsu.edu.ng",
+    "phone": "+2348064087963, +2348037550845, +2348067664449",
+    "location": null,
+    "website": "https://iportal.ebsu.edu.ng/app/admissions/support",
+    "source_url": "https://iportal.ebsu.edu.ng/app/admissions/support"
+  },
+  {
+    "slug": "bursary",
+    "name": "Bursary Unit",
+    "handles": "Fee payments and original EBSU receipts",
+    "email": null,
+    "phone": null,
+    "location": null,
+    "website": null,
+    "source_url": "https://ebsu.edu.ng/admission-procedures/"
+  },
+  {
+    "slug": "records",
+    "name": "Records Unit (transcripts)",
+    "handles": "Transcripts and academic records. Visits to the Records Office are by invitation only.",
+    "email": "ictsupport@ebsu.edu.ng",
+    "phone": "+2348037550845, +2348064087963",
+    "location": null,
+    "website": "https://iportal.ebsu.edu.ng/transcript/",
+    "source_url": "https://iportal.ebsu.edu.ng/transcript/site/about_transcripts"
+  },
+  {
+    "slug": "student-affairs",
+    "name": "Office of Student Affairs",
+    "handles": "Student welfare, hostels and student activities",
+    "email": null,
+    "phone": null,
+    "location": null,
+    "website": null,
+    "source_url": "https://spgs.ebsu.edu.ng/"
+  },
+  {
+    "slug": "ict",
+    "name": "ICT and Research Centre (portal support)",
+    "handles": "Portal accounts, passwords and online services",
+    "email": "ictsupport@ebsu.edu.ng, ictdirector@ebsu.edu.ng",
+    "phone": "+2348037550845, +2348064087963",
+    "location": null,
+    "website": "https://iportal.ebsu.edu.ng/portal/",
+    "source_url": "https://iportal.ebsu.edu.ng/portal/"
+  },
+  {
+    "slug": "postgraduate",
+    "name": "School of Postgraduate Studies (SPGS)",
+    "handles": "Postgraduate admissions and enquiries",
+    "email": "spgsebsu@ebsu.edu.ng",
+    "phone": "+234 (0)810 231 8225",
+    "location": "School of Postgraduate Studies Complex, CAS Campus",
+    "website": "https://spgs.ebsu.edu.ng/",
+    "source_url": "https://spgs.ebsu.edu.ng/deanspgs.php"
+  },
+  {
+    "slug": "international",
+    "name": "International Office for Partnerships and Cooperation",
+    "handles": "International partnerships, mobility and international students",
+    "email": "internationaloffice@ebsu.edu.ng",
+    "phone": "+234 (0)703 922 0960",
+    "location": "School of Postgraduate Studies Complex, CAS Campus",
+    "website": "https://mail.ebsu.edu.ng/international-office.php",
+    "source_url": "https://mail.ebsu.edu.ng/international-office.php"
+  },
+  {
+    "slug": "library",
+    "name": "University Library",
+    "handles": "Library registration, books and e-resources",
+    "email": "librarian@ebsu.edu.ng",
+    "phone": null,
+    "location": "Central Library (open 8:00 AM to 4:00 PM)",
+    "website": "https://ebsu.edu.ng/physical-library/",
+    "source_url": "https://ebsu.edu.ng/physical-library/"
+  },
+  {
+    "slug": "health",
+    "name": "Health Services and campus security",
+    "handles": "Health services, police and institution security",
+    "email": null,
+    "phone": null,
+    "location": null,
+    "website": "https://ebsu.edu.ng/health-and-safety/",
+    "source_url": "https://ebsu.edu.ng/health-and-safety/"
+  }
+]
