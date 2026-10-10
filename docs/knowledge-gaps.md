@@ -47,6 +47,6 @@ The bot falls back to "I don't have that yet" for these and names the office. Ad
 |---|---|---|
 | Images generated in ChatGPT | This build ran in a cloud session without access to your browser, so it could not use your signed-in ChatGPT. | All visuals were built locally instead: one icon set (Phosphor), one SVG illustration and the app's own screenshots. |
 | EBSU crest and real campus photos | Not available offline, and the crest should come from the university. | Optional: add a campus photo to the report's title page or the deck's first slide. |
-| Department project template | Not provided. The report follows the standard five-chapter format. | Re-flow the report into your department's template if it has one. |
+| Department project template | Only the preliminary pages were provided (your lecturer's sample); the report now follows them exactly. The chapters follow the standard five-chapter format. | If the department also has a chapter template, re-flow the chapters into it. |
 | Supervisor requirements, defense date | Not provided. | Add them to the report's front matter and the deck's title slide. |
 | Real student feedback results | Needs real students. | Use `docs/student-feedback-form.docx` with 20 to 30 students and add the results table in Chapter 4 (a placeholder table is there). |
