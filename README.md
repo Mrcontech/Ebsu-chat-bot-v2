@@ -54,6 +54,8 @@ XAMPP's defaults (user `root`, no password, port 3306) work without any setup. I
 | `npm run db:export` | Write `database/ebsu_chatbot.sql` for importing by hand in phpMyAdmin |
 | `npm test` | Unit tests for the matching engine |
 | `npm run evaluate` | Accuracy test on the 30 held-out questions; writes `docs/results/` |
+| `npm run benchmark` | Response time of the running app (start it first); writes `docs/results/response-time.md` |
+| `npm run example` | The hand-checkable TF-IDF example from Chapter 3 of the report |
 | `npm run typecheck` | TypeScript check |
 
 ### Setting up the database by hand (backup plan)
@@ -95,6 +97,18 @@ Main files:
 | `database/seed/` | Starting data: knowledge base (with source links), offices, language rules, test questions |
 | `tests/` | Unit tests |
 | `docs/` | Project report, defense deck, Q&A sheet, feedback form, test results, screenshots |
+
+## Project documents
+
+| File | What it is |
+|---|---|
+| [`docs/project-report.docx`](docs/project-report.docx) | Five-chapter project report (draft). Fill the yellow **[TO FILL]** parts; Word asks to update fields when it opens, click Yes. |
+| [`docs/defense-slides.pptx`](docs/defense-slides.pptx) | Ten-slide defense deck with speaker notes |
+| [`docs/defense-qa-sheet.docx`](docs/defense-qa-sheet.docx) | Likely panel questions, with what to show in the app and where the evidence is in the report |
+| [`docs/student-feedback-form.docx`](docs/student-feedback-form.docx) | One-page feedback form (SUS and usefulness/ease of use) for Chapter 4 |
+| [`docs/knowledge-gaps.md`](docs/knowledge-gaps.md) | Facts the website did not publish, facts to verify, and things that could not be produced |
+| [`docs/decision-log.md`](docs/decision-log.md) | Every design decision and how to change it |
+| `docs/results/`, `docs/screenshots/`, `docs/diagrams/` | Test results, screens and diagrams used in the report (diagram sources are the `.dot` files) |
 
 ## Keeping the knowledge base accurate
 

@@ -1,0 +1,35 @@
+digraph G {
+  graph [rankdir=LR, fontname="Liberation Sans", fontsize=13, bgcolor="white", pad=0.3, nodesep=0.22, ranksep=0.9, newrank=true];
+  node  [fontname="Liberation Sans", fontsize=12];
+  edge  [fontname="Liberation Sans", color="#5C544C", arrowhead=none];
+
+  student [label="<<actor>>\nStudent", shape=box, style="rounded", color="#24201C", fontcolor="#24201C"];
+  admin   [label="<<actor>>\nAdministrator", shape=box, style="rounded", color="#24201C", fontcolor="#24201C"];
+
+  subgraph cluster_sys {
+    label="EBSU Enquiry Bot"; style="rounded"; color="#C44A1F"; fontcolor="#A63D17"; fontsize=14;
+    node [shape=ellipse, style=filled, fillcolor="#FFFDF9", color="#5C544C", width=2.6];
+    subgraph cluster_s { label=""; style=invis;
+      u1 [label="Ask a question\nin own words"];
+      u3 [label="View answer\nwith source"];
+      u2 [label="Pick a suggested\nquestion"];
+      u4 [label="See how the\nanswer was matched"];
+      u5 [label="Rate an answer"];
+      u6 [label="View offices\nand contacts"];
+    }
+    subgraph cluster_a { label=""; style=invis;
+      u7 [label="Log in / log out"];
+      u8 [label="Add, edit, delete\nquestions and answers"];
+      u9 [label="Review unanswered\nquestions"];
+      u10 [label="Link a question as\nanother phrasing"];
+      u11 [label="View chat logs\nand dashboard"];
+      u12 [label="Run the test bench"];
+      u13 [label="Update offices,\nthresholds, password"];
+    }
+  }
+  student -> {u1 u2 u4 u5 u6};
+  u1 -> u3 [style=dashed, arrowhead=vee, label="<<include>>", fontsize=9, fontcolor="#5C544C", constraint=false];
+  {u7 u8 u9 u11 u12 u13} -> admin;
+  u10 -> u9 [style=dashed, arrowhead=vee, label="<<extend>>", fontsize=9, fontcolor="#5C544C", constraint=false];
+  u1 -> u7 [style=invis]; u3 -> u8 [style=invis]; u5 -> u10 [style=invis];
+}

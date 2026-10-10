@@ -17,7 +17,9 @@
     "serve": "next start -p 3000",
     "test": "tsx --test tests/*.test.ts",
     "evaluate": "tsx scripts/evaluate.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "example": "tsx scripts/worked-example.ts",
+    "benchmark": "node scripts/benchmark.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",

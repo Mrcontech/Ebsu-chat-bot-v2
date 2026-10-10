@@ -1,0 +1,34 @@
+digraph G {
+  graph [rankdir=TB, fontname="Liberation Sans", fontsize=13, bgcolor="white", pad=0.3, nodesep=0.45, ranksep=0.55, splines=true, newrank=true];
+  node  [fontname="Liberation Sans", fontsize=12, shape=box, style="rounded,filled", fillcolor="#FFFDF9", color="#5C544C", penwidth=1.2, margin="0.18,0.10"];
+  edge  [fontname="Liberation Sans", fontsize=10, color="#5C544C", arrowsize=0.8];
+
+  subgraph cluster_clients {
+    label="Web browser (same computer or campus network)"; style="rounded,dashed"; color="#8A8178"; fontcolor="#24201C";
+    student [label="Student pages\nchat, how it works, contacts"];
+    admin   [label="Admin pages\ndashboard, knowledge base, unanswered,\nlogs, test bench, offices, settings"];
+  }
+
+  subgraph cluster_server {
+    label="Next.js server (Node.js + TypeScript)"; style="rounded,filled"; fillcolor="#FDF2EC"; color="#C44A1F"; fontcolor="#A63D17";
+    api     [label="API routes\n/api/chat  /api/explain  /api/feedback"];
+    actions [label="Server actions + authentication\n(bcrypt hashes, session cookie)"];
+    subgraph cluster_nlp {
+      label="NLP matching engine"; style="rounded,filled"; fillcolor="#FCE8DF"; color="#C44A1F"; fontcolor="#A63D17";
+      nlp   [label="clean > fix typos > language rules > stopwords\n> Porter stems > TF-IDF cosine + trigram > decide", fillcolor="#FFFDF9"];
+      cache [label="In-memory index\n(rebuilt when the data changes)", fillcolor="#FFFDF9"];
+    }
+    route [label="Office routing\n(fallback contact)"];
+  }
+
+  db [label="MySQL / MariaDB (XAMPP)   database: ebsu_chatbot\nqa_pairs, qa_variants, categories, offices, language_rules,\nchat_logs, unanswered_questions, admins, admin_sessions, settings, test_questions", shape=cylinder, fillcolor="#FFFDF9", color="#24201C", margin="0.3,0.15"];
+
+  student -> api [label=" question (JSON)"];
+  admin -> actions [label=" forms"];
+  api -> nlp;
+  nlp -> cache [dir=both, style=dashed];
+  api -> route;
+  cache -> db [label=" load questions\n and rules", style=dashed];
+  api -> db [label=" chat log,\n unanswered"];
+  actions -> db [label=" read / write"];
+}

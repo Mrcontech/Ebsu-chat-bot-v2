@@ -7,6 +7,7 @@ import { Badge, buttonClass, EmptyState, formatDate, inputClass, Notice, Tabs } 
 import { listQaOptions, listUnanswered } from "@/lib/admin-data";
 import { requireAdmin } from "@/lib/auth";
 import { query } from "@/lib/db";
+import { formatScore } from "@/lib/format";
 
 export const metadata: Metadata = { title: "Unanswered questions" };
 
@@ -65,7 +66,7 @@ export default async function UnansweredPage({ searchParams }: { searchParams: P
                     {u.best_question ? (
                       <p className="mt-2 text-[13px] text-ink-2">
                         Closest stored question: <span className="text-ink">{u.best_question}</span>{" "}
-                        <span className="tabular text-ink-3">(score {Number(u.best_score ?? 0).toFixed(2)})</span>
+                        <span className="tabular text-ink-3">(score {formatScore(Number(u.best_score ?? 0))})</span>
                       </p>
                     ) : null}
                   </div>

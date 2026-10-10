@@ -1,0 +1,45 @@
+digraph G {
+  graph [rankdir=TB, fontname="Liberation Sans", fontsize=12, bgcolor="white", pad=0.3, nodesep=0.5, ranksep=0.55, newrank=true];
+  node  [fontname="Liberation Sans", fontsize=11];
+  edge  [fontname="Liberation Sans", fontsize=9, color="#5C544C"];
+  node [shape=box, style=filled, fillcolor="#FFFDF9", color="#24201C"];
+  student [label="Student"]; admin [label="Administrator"];
+  node [shape=box, style="rounded,filled", fillcolor="#FCE8DF", color="#C44A1F"];
+  p1 [label="1.0\nReceive and\nclean message"];
+  p2 [label="2.0\nMatch against\nknowledge base"];
+  p3 [label="3.0\nCompose reply"];
+  p4 [label="4.0\nLog message and\nrecord unanswered"];
+  p5 [label="5.0\nAuthenticate\nadministrator"];
+  p6 [label="6.0\nManage knowledge\nbase and offices"];
+  node [shape=record, style=filled, fillcolor="#FFFDF9", color="#5C544C"];
+  d1 [label="D1 | qa_pairs, qa_variants"];
+  d2 [label="D2 | language_rules"];
+  d3 [label="D3 | chat_logs"];
+  d4 [label="D4 | unanswered_questions"];
+  d5 [label="D5 | admins, admin_sessions"];
+  d6 [label="D6 | offices, settings"];
+  {rank=same; student; admin}
+  {rank=same; p1; p5}
+  {rank=same; d2; p2; d5}
+  {rank=same; p3; p6}
+  {rank=same; d1; d6}
+  {rank=same; p4}
+  {rank=same; d3; d4}
+  student -> p1 [label=" question"];
+  d2 -> p1 [label=" rules"];
+  p1 -> p2 [label=" clean tokens"];
+  d1 -> p2 [label=" phrasings", constraint=false];
+  d6 -> p2 [label=" thresholds", constraint=false];
+  p2 -> p3 [label=" best match, score"];
+  d6 -> p3 [label=" office contact", constraint=false];
+  p3 -> student [label=" reply", constraint=false];
+  p3 -> p4 [label=" outcome"];
+  p4 -> d3; p4 -> d4;
+  admin -> p5 [label=" username, password"];
+  p5 -> d5 [label=" session", dir=both];
+  p5 -> p6 [label=" signed in"];
+  d4 -> p6 [label=" unanswered", constraint=false];
+  p6 -> d1 [label=" new / edited entries"];
+  p6 -> d6 [label=" office details"];
+  p6 -> admin [label=" lists, reports", constraint=false];
+}

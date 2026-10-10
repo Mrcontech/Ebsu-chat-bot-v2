@@ -1,0 +1,12 @@
+digraph G {
+  graph [rankdir=LR, fontname="Liberation Sans", fontsize=13, bgcolor="white", pad=0.3, nodesep=0.5, ranksep=1.4];
+  node  [fontname="Liberation Sans", fontsize=12];
+  edge  [fontname="Liberation Sans", fontsize=10, color="#5C544C"];
+  student [label="Student", shape=box, style=filled, fillcolor="#FFFDF9", color="#24201C"];
+  admin   [label="Administrator", shape=box, style=filled, fillcolor="#FFFDF9", color="#24201C"];
+  sys     [label="0\nEBSU Enquiry Bot", shape=circle, style=filled, fillcolor="#FCE8DF", color="#C44A1F", fontcolor="#24201C", width=1.8, fixedsize=true];
+  student -> sys [label="question text,\nrating"];
+  sys -> student [label="answer and source,\nsuggestions, or\noffice contact"];
+  admin -> sys [label="login details,\nnew or edited answers,\nthresholds, office details"];
+  sys -> admin [label="dashboard, unanswered list,\nchat logs, test results"];
+}

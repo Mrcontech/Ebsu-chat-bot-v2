@@ -1,0 +1,25 @@
+digraph G {
+  graph [rankdir=LR, fontname="Liberation Sans", bgcolor="white", pad=0.3, nodesep=0.4, ranksep=0.9];
+  node  [fontname="Liberation Sans", fontsize=10, shape=plain];
+  edge  [fontname="Liberation Sans", fontsize=9, color="#5C544C", arrowhead=crow, arrowtail=tee, dir=both];
+  categories [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4" color="#5C544C"><tr><td bgcolor="#FCE8DF"><b>categories</b></td></tr><tr><td align="left">PK id</td></tr><tr><td align="left">slug (unique)</td></tr><tr><td align="left">name, description</td></tr><tr><td align="left">icon, sort_order</td></tr></table>>];
+  offices [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4" color="#5C544C"><tr><td bgcolor="#FCE8DF"><b>offices</b></td></tr><tr><td align="left">PK id</td></tr><tr><td align="left">slug (unique), name</td></tr><tr><td align="left">handles, email, phone</td></tr><tr><td align="left">location, website, source_url</td></tr></table>>];
+  qa_pairs [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4" color="#5C544C"><tr><td bgcolor="#FCE8DF"><b>qa_pairs</b></td></tr><tr><td align="left">PK id</td></tr><tr><td align="left">ref_key (unique)</td></tr><tr><td align="left">FK category_id</td></tr><tr><td align="left">FK office_id</td></tr><tr><td align="left">question, answer</td></tr><tr><td align="left">source_url, source_note</td></tr><tr><td align="left">is_active, is_featured</td></tr><tr><td align="left">created_at, updated_at</td></tr></table>>];
+  qa_variants [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4" color="#5C544C"><tr><td bgcolor="#FCE8DF"><b>qa_variants</b></td></tr><tr><td align="left">PK id</td></tr><tr><td align="left">FK qa_id</td></tr><tr><td align="left">phrasing</td></tr></table>>];
+  chat_logs [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4" color="#5C544C"><tr><td bgcolor="#FCE8DF"><b>chat_logs</b></td></tr><tr><td align="left">PK id</td></tr><tr><td align="left">session_id</td></tr><tr><td align="left">message, normalized</td></tr><tr><td align="left">outcome, score, feedback</td></tr><tr><td align="left">FK matched_qa_id</td></tr><tr><td align="left">created_at</td></tr></table>>];
+  unanswered [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4" color="#5C544C"><tr><td bgcolor="#FCE8DF"><b>unanswered_questions</b></td></tr><tr><td align="left">PK id</td></tr><tr><td align="left">question, norm_key (unique)</td></tr><tr><td align="left">times_asked, best_score</td></tr><tr><td align="left">FK best_qa_id, FK resolved_qa_id</td></tr><tr><td align="left">FK office_id, status</td></tr><tr><td align="left">first_asked_at, last_asked_at</td></tr></table>>];
+  test_questions [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4" color="#5C544C"><tr><td bgcolor="#FCE8DF"><b>test_questions</b></td></tr><tr><td align="left">PK id</td></tr><tr><td align="left">question, style, set_name</td></tr><tr><td align="left">expected_outcome</td></tr><tr><td align="left">FK expected_qa_id</td></tr></table>>];
+  admins [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4" color="#5C544C"><tr><td bgcolor="#FCE8DF"><b>admins</b></td></tr><tr><td align="left">PK id</td></tr><tr><td align="left">username (unique)</td></tr><tr><td align="left">full_name, password_hash</td></tr><tr><td align="left">created_at, last_login_at</td></tr></table>>];
+  sessions [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4" color="#5C544C"><tr><td bgcolor="#FCE8DF"><b>admin_sessions</b></td></tr><tr><td align="left">PK token_hash</td></tr><tr><td align="left">FK admin_id</td></tr><tr><td align="left">expires_at, created_at</td></tr></table>>];
+  rules [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4" color="#5C544C"><tr><td bgcolor="#FCE8DF"><b>language_rules</b></td></tr><tr><td align="left">PK id</td></tr><tr><td align="left">phrase (unique)</td></tr><tr><td align="left">canonical, kind</td></tr></table>>];
+  settings [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4" color="#5C544C"><tr><td bgcolor="#FCE8DF"><b>settings</b></td></tr><tr><td align="left">PK name</td></tr><tr><td align="left">value</td></tr></table>>];
+  categories -> qa_pairs [label="1 : N"];
+  offices -> qa_pairs [label="1 : N"];
+  qa_pairs -> qa_variants [label="1 : N"];
+  qa_pairs -> chat_logs [label="1 : N"];
+  qa_pairs -> unanswered [label="1 : N"];
+  offices -> unanswered [label="1 : N"];
+  qa_pairs -> test_questions [label="1 : N"];
+  admins -> sessions [label="1 : N"];
+  {rank=same; rules; settings}
+}

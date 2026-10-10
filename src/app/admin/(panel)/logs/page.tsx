@@ -4,6 +4,7 @@ import { AdminPage } from "@/components/admin/admin-shell";
 import { Badge, EmptyState, formatDate, OUTCOME_TONE, Tabs } from "@/components/admin/ui";
 import { listLogs } from "@/lib/admin-data";
 import { requireAdmin } from "@/lib/auth";
+import { formatScore } from "@/lib/format";
 
 export const metadata: Metadata = { title: "Chat logs" };
 
@@ -49,7 +50,7 @@ export default async function LogsPage({ searchParams }: { searchParams: Promise
                       <Badge tone={OUTCOME_TONE[r.outcome] ?? "neutral"}>{r.outcome}</Badge>
                     </td>
                     <td className="max-w-[280px] px-4 py-3 text-ink-2">{r.matched_question ?? <span className="text-ink-3">None</span>}</td>
-                    <td className="tabular px-4 py-3 text-right text-ink-2">{r.score !== null ? Number(r.score).toFixed(2) : ""}</td>
+                    <td className="tabular px-4 py-3 text-right text-ink-2">{r.score !== null ? formatScore(Number(r.score)) : ""}</td>
                     <td className="px-4 py-3">
                       {r.feedback === 1 ? (
                         <ThumbsUpIcon size={18} weight="fill" className="text-good" aria-label="Helpful" />

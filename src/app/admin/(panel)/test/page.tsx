@@ -4,6 +4,7 @@ import { Badge, OUTCOME_TONE, Stat, Tabs } from "@/components/admin/ui";
 import { listTestQuestions } from "@/lib/admin-data";
 import { requireAdmin } from "@/lib/auth";
 import { evaluate } from "@/lib/evaluate";
+import { formatScore } from "@/lib/format";
 import { getThresholds, loadIndex } from "@/lib/kb";
 
 export const metadata: Metadata = { title: "Test bench" };
@@ -68,7 +69,7 @@ export default async function TestBenchPage({ searchParams }: { searchParams: Pr
                     {r.got}
                     {r.expectedWasSuggested ? <span className="block text-[12px] text-warn">Expected answer was among the suggestions</span> : null}
                   </td>
-                  <td className="tabular px-4 py-3 text-right text-ink-2">{r.score.toFixed(2)}</td>
+                  <td className="tabular px-4 py-3 text-right text-ink-2">{formatScore(r.score)}</td>
                   <td className="px-4 py-3">
                     <Badge tone={OUTCOME_TONE[r.outcome] ?? "neutral"}>{r.outcome}</Badge>
                   </td>
