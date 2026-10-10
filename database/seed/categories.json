@@ -1,0 +1,13 @@
+[
+  { "slug": "admission", "name": "Admission", "description": "Admission status, acceptance, clearance and requirements", "icon": "graduation-cap" },
+  { "slug": "post-utme", "name": "Post-UTME and cut-off", "description": "Post-UTME screening and approved cut-off marks", "icon": "clipboard-text" },
+  { "slug": "fees", "name": "Fees and payments", "description": "Acceptance fee, school fees and how to pay", "icon": "wallet" },
+  { "slug": "registration", "name": "Registration and portal", "description": "Portal accounts, logins and online services", "icon": "laptop" },
+  { "slug": "courses", "name": "Faculties and courses", "description": "Faculties, departments and general studies", "icon": "book-open-text" },
+  { "slug": "results", "name": "Results and transcripts", "description": "Checking results, transcripts and verification", "icon": "scroll" },
+  { "slug": "postgraduate", "name": "Postgraduate", "description": "School of Postgraduate Studies admissions", "icon": "student" },
+  { "slug": "campus", "name": "Campus life", "description": "Library, health and safety, international office", "icon": "buildings" },
+  { "slug": "about", "name": "About EBSU", "description": "History, principal officers and location", "icon": "info" },
+  { "slug": "contacts", "name": "Contacts", "description": "Who to call or email", "icon": "address-book" },
+  { "slug": "chat-basics", "name": "Chat basics", "description": "Greetings and questions about the bot itself (not counted as university answers)", "icon": "chats-circle" }
+]

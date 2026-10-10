@@ -1,0 +1,362 @@
+[
+ {
+  "question": "What is the amount for the EBSU post UTME form this year?",
+  "expect": "postutme-fee",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "wetin be the cut off mark for nursing for ebsu",
+  "expect": "cutoff-nursing",
+  "style": "pidgin",
+  "set": "test"
+ },
+ {
+  "question": "how do i chek my admision status",
+  "expect": "admission-status",
+  "style": "typos",
+  "set": "test"
+ },
+ {
+  "question": "Which platform do I use to pay my fees?",
+  "expect": "fees-how-to-pay",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "what is the jamb cutoff for comp science",
+  "expect": "cutoff-cs",
+  "style": "short forms",
+  "set": "test"
+ },
+ {
+  "question": "I lost my portal password, how can I recover it",
+  "expect": "portal-password",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "abeg how i go take apply for transcript",
+  "expect": "transcript-apply",
+  "style": "pidgin",
+  "set": "test"
+ },
+ {
+  "question": "Documents required for clearance at the admission unit",
+  "expect": "clearance-documents",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "when is the last day to accept admission on caps",
+  "expect": "caps-acceptance",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "who is the current vice chancellor of ebonyi state university",
+  "expect": "vc",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "how much is acceptance fee for nursing",
+  "expect": "acceptance-fee",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "can i pay sch fees in two parts",
+  "expect": "fees-instalments",
+  "style": "short forms",
+  "set": "test"
+ },
+ {
+  "question": "Where is the university located?",
+  "expect": "location",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "what time does the library open and close",
+  "expect": "library",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "What is the procedure to apply for an MSc programme?",
+  "expect": "pg-how-to-apply",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "list the departments under faculty of science",
+  "expect": "science-departments",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "Do candidates have to travel to the campus for the screening exercise?",
+  "expect": "postutme-physical",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "how many days before transcript get delivered",
+  "expect": "transcript-delivery",
+  "style": "pidgin",
+  "set": "test"
+ },
+ {
+  "question": "admission list for 2026 don drop?",
+  "expect": "merit-list",
+  "style": "pidgin",
+  "set": "test"
+ },
+ {
+  "question": "trancript requirments",
+  "expect": "transcript-requirements",
+  "style": "typos",
+  "set": "test"
+ },
+ {
+  "question": "what is the pg application fee and deadline",
+  "expect": "pg-dates-fee",
+  "style": "short forms",
+  "set": "test"
+ },
+ {
+  "question": "I have been offered admission, what are the next steps?",
+  "expect": "acceptance-steps",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "how do i confirm that an ebsu certificate is genuine",
+  "expect": "document-verification",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "who do i call when the portal is not loading",
+  "expect": "portal-support",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "When was EBSU founded and who was the first VC?",
+  "expect": "history",
+  "style": "formal",
+  "set": "test"
+ },
+ {
+  "question": "How much is hostel accommodation per session?",
+  "expect": null,
+  "style": "out of scope",
+  "set": "test"
+ },
+ {
+  "question": "Is there a swimming pool on campus?",
+  "expect": null,
+  "style": "out of scope",
+  "set": "test"
+ },
+ {
+  "question": "Who won the last NUGA games?",
+  "expect": null,
+  "style": "out of scope",
+  "set": "test"
+ },
+ {
+  "question": "What is the exam timetable for first semester?",
+  "expect": null,
+  "style": "out of scope",
+  "set": "test"
+ },
+ {
+  "question": "Can I bring a car to school as a fresher?",
+  "expect": null,
+  "style": "out of scope",
+  "set": "test"
+ },
+ {
+  "question": "how much be the screening form",
+  "expect": "postutme-fee",
+  "style": "pidgin",
+  "set": "dev"
+ },
+ {
+  "question": "cut off for medicine 2026/2027",
+  "expect": "cutoff-medicine",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "law jamb cut off",
+  "expect": "cutoff-law",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "what is ebsu cutoff",
+  "expect": "cutoff-general",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "how i fit print my admission letter",
+  "expect": "acceptance-steps",
+  "style": "pidgin",
+  "set": "dev"
+ },
+ {
+  "question": "documents needed for documentation",
+  "expect": "clearance-documents",
+  "style": "formal",
+  "set": "dev"
+ },
+ {
+  "question": "check result on portal",
+  "expect": "check-results",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "my transcript fit go my papa house?",
+  "expect": "transcript-recipients",
+  "style": "pidgin",
+  "set": "dev"
+ },
+ {
+  "question": "requirements for phd admission",
+  "expect": "pg-phd",
+  "style": "formal",
+  "set": "dev"
+ },
+ {
+  "question": "pg school email address",
+  "expect": "pg-contact",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "ebsu contact number",
+  "expect": "contact-general",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "how many faculties are in ebsu",
+  "expect": "faculties-list",
+  "style": "formal",
+  "set": "dev"
+ },
+ {
+  "question": "where is the e library",
+  "expect": "e-library",
+  "style": "formal",
+  "set": "dev"
+ },
+ {
+  "question": "what is the vision of ebsu",
+  "expect": "vision-mission",
+  "style": "formal",
+  "set": "dev"
+ },
+ {
+  "question": "who is ebsu registrar",
+  "expect": "registrar",
+  "style": "formal",
+  "set": "dev"
+ },
+ {
+  "question": "do they have jupeb",
+  "expect": "jupeb",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "can i study part time while working",
+  "expect": "wasp",
+  "style": "formal",
+  "set": "dev"
+ },
+ {
+  "question": "post utme closing date",
+  "expect": "postutme-dates",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "can i apply if i am still waiting for my waec result",
+  "expect": "postutme-eligibility",
+  "style": "formal",
+  "set": "dev"
+ },
+ {
+  "question": "o level credits needed for science",
+  "expect": "olevel-requirements",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "what subjects for computer science jamb",
+  "expect": "cs-requirements",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "engineering cut off marks",
+  "expect": "cutoff-engineering",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "accountancy cut off",
+  "expect": "cutoff-management",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "how to verify certificate",
+  "expect": "document-verification",
+  "style": "short forms",
+  "set": "dev"
+ },
+ {
+  "question": "hi there",
+  "expect": "hello",
+  "style": "small talk",
+  "set": "dev"
+ },
+ {
+  "question": "thanks so much",
+  "expect": "thanks",
+  "style": "small talk",
+  "set": "dev"
+ },
+ {
+  "question": "what is the weather today",
+  "expect": null,
+  "style": "out of scope",
+  "set": "dev"
+ },
+ {
+  "question": "how much is a plate of rice in the cafeteria",
+  "expect": null,
+  "style": "out of scope",
+  "set": "dev"
+ },
+ {
+  "question": "are there sports facilities",
+  "expect": null,
+  "style": "out of scope",
+  "set": "dev"
+ },
+ {
+  "question": "hostel",
+  "expect": null,
+  "style": "out of scope",
+  "set": "dev"
+ }
+]

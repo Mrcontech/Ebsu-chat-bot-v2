@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# local settings (copy .env.example to .env to change database details)
+.env
+.env.local
+
+# logs
+npm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

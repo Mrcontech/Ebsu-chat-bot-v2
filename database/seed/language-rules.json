@@ -1,0 +1,1537 @@
+[
+ {
+  "phrase": "wetin",
+  "canonical": "what",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "watin",
+  "canonical": "what",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "wetin be",
+  "canonical": "what",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "watin be",
+  "canonical": "what",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "how far",
+  "canonical": "hello",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "how una dey",
+  "canonical": "hello",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "how you dey",
+  "canonical": "hello",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "how u dey",
+  "canonical": "hello",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "kedu",
+  "canonical": "hello",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "nno",
+  "canonical": "hello",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "good day",
+  "canonical": "hello",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "abeg",
+  "canonical": "please",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "biko",
+  "canonical": "please",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "how much",
+  "canonical": "cost",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "how much be",
+  "canonical": "cost",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "na how much",
+  "canonical": "cost",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "how much e be",
+  "canonical": "cost",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "how much e cost",
+  "canonical": "cost",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "wen",
+  "canonical": "date",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "which time",
+  "canonical": "date",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "wetin time",
+  "canonical": "date",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "wia",
+  "canonical": "location",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "wer",
+  "canonical": "location",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "for where",
+  "canonical": "location",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "which place",
+  "canonical": "location",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "sabi",
+  "canonical": "know",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "come out",
+  "canonical": "release",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "don come out",
+  "canonical": "release",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "comot",
+  "canonical": "release",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "commot",
+  "canonical": "release",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "don comot",
+  "canonical": "release",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "don commot",
+  "canonical": "release",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "drop",
+  "canonical": "release",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "e get",
+  "canonical": "there is",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "una get",
+  "canonical": "there is",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "dem get",
+  "canonical": "there is",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "tank you",
+  "canonical": "thanks",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "tanks",
+  "canonical": "thanks",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "tnx",
+  "canonical": "thanks",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "thanx",
+  "canonical": "thanks",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "thx",
+  "canonical": "thanks",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "daalu",
+  "canonical": "thanks",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "dalu",
+  "canonical": "thanks",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "ese",
+  "canonical": "thanks",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "e se",
+  "canonical": "thanks",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "nagode",
+  "canonical": "thanks",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "thank you",
+  "canonical": "thanks",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "thank u",
+  "canonical": "thanks",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "chk",
+  "canonical": "check",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "chek",
+  "canonical": "check",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "confam",
+  "canonical": "check",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "confirm",
+  "canonical": "check",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "sch fees",
+  "canonical": "schoolfee",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "sch fee",
+  "canonical": "schoolfee",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "skul fees",
+  "canonical": "schoolfee",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "skul fee",
+  "canonical": "schoolfee",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "skool fees",
+  "canonical": "schoolfee",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "school fees",
+  "canonical": "schoolfee",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "school fee",
+  "canonical": "schoolfee",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "tuition",
+  "canonical": "schoolfee",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "tuition fee",
+  "canonical": "schoolfee",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "tuition fees",
+  "canonical": "schoolfee",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "schfees",
+  "canonical": "schoolfee",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "schoolfees",
+  "canonical": "schoolfee",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "sch",
+  "canonical": "school",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "skul",
+  "canonical": "school",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "skool",
+  "canonical": "school",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "post utme",
+  "canonical": "postutme",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "putme",
+  "canonical": "postutme",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "pume",
+  "canonical": "postutme",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "post ume",
+  "canonical": "postutme",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "postume",
+  "canonical": "postutme",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "post jamb",
+  "canonical": "postutme",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "postjamb",
+  "canonical": "postutme",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "post utme screening",
+  "canonical": "postutme",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "putme screening",
+  "canonical": "postutme",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "utme",
+  "canonical": "jamb",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "jamb score",
+  "canonical": "jamb",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "utme score",
+  "canonical": "jamb",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "jamb result",
+  "canonical": "jamb",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "utme result",
+  "canonical": "jamb",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "direct entry",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "de form",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "de candidate",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "de candidates",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "de student",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "de students",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "de admission",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "de requirement",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "de requirements",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "d e",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "via de",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "through de",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "cut off",
+  "canonical": "cutoff",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "cut of",
+  "canonical": "cutoff",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "cut off mark",
+  "canonical": "cutoff",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "cut off marks",
+  "canonical": "cutoff",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "cutoff mark",
+  "canonical": "cutoff",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "cutoff marks",
+  "canonical": "cutoff",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "pass mark",
+  "canonical": "cutoff",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "departmental cut off",
+  "canonical": "cutoff",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "vc",
+  "canonical": "vicechancellor",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "v c",
+  "canonical": "vicechancellor",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "vice chancellor",
+  "canonical": "vicechancellor",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "dvc",
+  "canonical": "deputy vicechancellor",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "d v c",
+  "canonical": "deputy vicechancellor",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "reg",
+  "canonical": "registration",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "register",
+  "canonical": "registration",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "registering",
+  "canonical": "registration",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "registered",
+  "canonical": "registration",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "registeration",
+  "canonical": "registration",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "registation",
+  "canonical": "registration",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "cos",
+  "canonical": "course",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "courses",
+  "canonical": "course",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "programme",
+  "canonical": "course",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "programmes",
+  "canonical": "course",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "program",
+  "canonical": "course",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "programs",
+  "canonical": "course",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "dept",
+  "canonical": "department",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "depts",
+  "canonical": "department",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "dept s",
+  "canonical": "department",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "departments",
+  "canonical": "department",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "fac",
+  "canonical": "faculty",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "faculties",
+  "canonical": "faculty",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "o level",
+  "canonical": "olevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "o levels",
+  "canonical": "olevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "olevels",
+  "canonical": "olevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "ssce",
+  "canonical": "olevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "waec",
+  "canonical": "olevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "neco",
+  "canonical": "olevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "gce",
+  "canonical": "olevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "nabteb",
+  "canonical": "olevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "wassce",
+  "canonical": "olevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "o level result",
+  "canonical": "olevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "o level results",
+  "canonical": "olevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "a level",
+  "canonical": "alevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "a levels",
+  "canonical": "alevel",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "id card",
+  "canonical": "idcard",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "i d card",
+  "canonical": "idcard",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "identity card",
+  "canonical": "idcard",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "id",
+  "canonical": "idcard",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "pg",
+  "canonical": "postgraduate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "p g",
+  "canonical": "postgraduate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "post graduate",
+  "canonical": "postgraduate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "postgraduate school",
+  "canonical": "postgraduate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "pg school",
+  "canonical": "postgraduate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "spgs",
+  "canonical": "postgraduate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "masters",
+  "canonical": "postgraduate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "msc",
+  "canonical": "postgraduate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "m sc",
+  "canonical": "postgraduate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "phd",
+  "canonical": "postgraduate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "pgd",
+  "canonical": "postgraduate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "gst",
+  "canonical": "general studies",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "hod",
+  "canonical": "head department",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "h o d",
+  "canonical": "head department",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "gpa",
+  "canonical": "cgpa",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "gp",
+  "canonical": "cgpa",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "grade point",
+  "canonical": "cgpa",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "youth service",
+  "canonical": "nysc",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "service year",
+  "canonical": "nysc",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "matric",
+  "canonical": "matriculation",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "matriculate",
+  "canonical": "matriculation",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "matriculating",
+  "canonical": "matriculation",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "convo",
+  "canonical": "convocation",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "graduation ceremony",
+  "canonical": "convocation",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "cert",
+  "canonical": "certificate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "certs",
+  "canonical": "certificate",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "lib",
+  "canonical": "library",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "sug",
+  "canonical": "students union",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "students union government",
+  "canonical": "students union",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "e mail",
+  "canonical": "email",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "mail",
+  "canonical": "email",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "mail address",
+  "canonical": "email",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "email address",
+  "canonical": "email",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "phone number",
+  "canonical": "phone",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "phone numbers",
+  "canonical": "phone",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "telephone",
+  "canonical": "phone",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "tel",
+  "canonical": "phone",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "mobile number",
+  "canonical": "phone",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "whatsapp",
+  "canonical": "phone",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "call",
+  "canonical": "phone",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "number to call",
+  "canonical": "phone",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "admision",
+  "canonical": "admission",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "admisson",
+  "canonical": "admission",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "addmission",
+  "canonical": "admission",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "admissions",
+  "canonical": "admission",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "admitted",
+  "canonical": "admission",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "admit",
+  "canonical": "admission",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "admited",
+  "canonical": "admission",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "hostels",
+  "canonical": "hostel",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "hostle",
+  "canonical": "hostel",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "accommodation",
+  "canonical": "hostel",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "accomodation",
+  "canonical": "hostel",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "acommodation",
+  "canonical": "hostel",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "acomodation",
+  "canonical": "hostel",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "bed space",
+  "canonical": "hostel",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "bedspace",
+  "canonical": "hostel",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "lodge",
+  "canonical": "hostel",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "room allocation",
+  "canonical": "hostel",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "transcripts",
+  "canonical": "transcript",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "trancript",
+  "canonical": "transcript",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "transcrip",
+  "canonical": "transcript",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "acceptance fee",
+  "canonical": "acceptance",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "acceptance fees",
+  "canonical": "acceptance",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "acceptnce",
+  "canonical": "acceptance",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "acceptanc",
+  "canonical": "acceptance",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "requirements",
+  "canonical": "requirement",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "require",
+  "canonical": "requirement",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "required",
+  "canonical": "requirement",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "requirment",
+  "canonical": "requirement",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "requirments",
+  "canonical": "requirement",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "criteria",
+  "canonical": "requirement",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "qualification",
+  "canonical": "requirement",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "qualifications",
+  "canonical": "requirement",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "eligible",
+  "canonical": "requirement",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "eligibility",
+  "canonical": "requirement",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "screen",
+  "canonical": "screening",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "screenings",
+  "canonical": "screening",
+  "kind": "spelling"
+ },
+ {
+  "phrase": "fee",
+  "canonical": "cost",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "fees",
+  "canonical": "cost",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "charge",
+  "canonical": "cost",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "charges",
+  "canonical": "cost",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "price",
+  "canonical": "cost",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "amount",
+  "canonical": "cost",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "levy",
+  "canonical": "cost",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "how much is",
+  "canonical": "cost",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "payment",
+  "canonical": "pay",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "payments",
+  "canonical": "pay",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "paying",
+  "canonical": "pay",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "paid",
+  "canonical": "pay",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "make payment",
+  "canonical": "pay",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "when",
+  "canonical": "date",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "deadline",
+  "canonical": "date",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "closing date",
+  "canonical": "date",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "close date",
+  "canonical": "date",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "last day",
+  "canonical": "date",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "period",
+  "canonical": "date",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "where",
+  "canonical": "location",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "located",
+  "canonical": "location",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "address",
+  "canonical": "location",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "situated",
+  "canonical": "location",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "exams",
+  "canonical": "exam",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "examination",
+  "canonical": "exam",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "examinations",
+  "canonical": "exam",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "test",
+  "canonical": "exam",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "tests",
+  "canonical": "exam",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "time table",
+  "canonical": "timetable",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "schedule",
+  "canonical": "timetable",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "resume",
+  "canonical": "resumption",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "reopen",
+  "canonical": "resumption",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "reopening",
+  "canonical": "resumption",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "resuming",
+  "canonical": "resumption",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "academic calendar",
+  "canonical": "calendar",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "school calendar",
+  "canonical": "calendar",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "freshers",
+  "canonical": "fresher",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "fresh student",
+  "canonical": "fresher",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "fresh students",
+  "canonical": "fresher",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "new student",
+  "canonical": "fresher",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "new students",
+  "canonical": "fresher",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "newly admitted",
+  "canonical": "fresher",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "jambite",
+  "canonical": "fresher",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "jambites",
+  "canonical": "fresher",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "first year",
+  "canonical": "fresher",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "reach",
+  "canonical": "contact",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "contacts",
+  "canonical": "contact",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "contact details",
+  "canonical": "contact",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "get in touch",
+  "canonical": "contact",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "web site",
+  "canonical": "website",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "site",
+  "canonical": "website",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "webpage",
+  "canonical": "website",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "web page",
+  "canonical": "website",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "application",
+  "canonical": "apply",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "applying",
+  "canonical": "apply",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "apply for",
+  "canonical": "apply",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "obtain",
+  "canonical": "apply",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "buy form",
+  "canonical": "apply",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "purchase form",
+  "canonical": "apply",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "carry over",
+  "canonical": "carryover",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "carry overs",
+  "canonical": "carryover",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "carryovers",
+  "canonical": "carryover",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "resit",
+  "canonical": "carryover",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "re sit",
+  "canonical": "carryover",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "results",
+  "canonical": "result",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "grades",
+  "canonical": "result",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "scores",
+  "canonical": "result",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "for de",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "by de",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "de entry",
+  "canonical": "directentry",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "e library",
+  "canonical": "elibrary",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "elibrary",
+  "canonical": "elibrary",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "digital library",
+  "canonical": "elibrary",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "contact number",
+  "canonical": "contact phone",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "phone no",
+  "canonical": "phone",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "tel no",
+  "canonical": "phone",
+  "kind": "abbreviation"
+ },
+ {
+  "phrase": "which day",
+  "canonical": "date",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "no dey",
+  "canonical": "not",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "no gree",
+  "canonical": "not",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "never",
+  "canonical": "not",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "carry",
+  "canonical": "bring",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "oga of the school",
+  "canonical": "vicechancellor",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "oga of ebsu",
+  "canonical": "vicechancellor",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "oga of the university",
+  "canonical": "vicechancellor",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "head of the university",
+  "canonical": "vicechancellor",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "head of the school",
+  "canonical": "vicechancellor",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "head of ebsu",
+  "canonical": "vicechancellor",
+  "kind": "synonym"
+ },
+ {
+  "phrase": "oga",
+  "canonical": "head",
+  "kind": "pidgin"
+ },
+ {
+  "phrase": "in charge",
+  "canonical": "head",
+  "kind": "synonym"
+ }
+]

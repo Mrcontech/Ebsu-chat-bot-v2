@@ -1,0 +1,40 @@
+{
+  "name": "ebsu-enquiry-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web-based AI-powered chatbot for student enquiry services in Ebonyi State University, Abakaliki. Next.js + MySQL, runs fully offline.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "start": "node scripts/start.mjs",
+    "dev": "node scripts/start.mjs --dev",
+    "db:setup": "node scripts/db-setup.mjs",
+    "db:reset": "node scripts/db-setup.mjs --reset",
+    "db:export": "node scripts/export-sql.mjs",
+    "build": "next build",
+    "serve": "next start -p 3000",
+    "test": "tsx --test tests/*.test.ts",
+    "evaluate": "tsx scripts/evaluate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "2.1.10",
+    "bcryptjs": "3.0.3",
+    "mysql2": "3.24.4",
+    "next": "16.3.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "stemmer": "2.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "22.20.4",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.23.14",
+    "typescript": "5.9.3"
+  }
+}
